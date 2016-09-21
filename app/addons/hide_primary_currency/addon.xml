@@ -2,7 +2,7 @@
 <addon scheme="2.0" edition_type="ROOT,ULT">
     <id>hide_primary_currency</id>
     <version>1.0</version>
-    <default_language>ru</default_language>
+    <default_language>en</default_language>
     <name>Product prices in the secondary currency</name>
     <description>Display product prices only in the secondary currency in the storefront</description>
     <status>active</status>
