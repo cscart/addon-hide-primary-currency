@@ -7,4 +7,25 @@
     <description>Display product prices only in the secondary currency in the storefront</description>
     <status>active</status>
     <auto_install>ULTIMATE</auto_install>
+
+    <settings>
+        <sections>
+            <section id="section">
+                <items>
+                    <item id="admin_code">
+                        <type>input</type>
+                        <name>Desired admin currency code</name>
+                        <default_value>USD</default_value>
+                        <variants/>
+                    </item>
+                    <item id="storefront_code">
+                        <type>input</type>
+                        <name>Desired storefront currency code</name>
+                        <default_value>USD</default_value>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
 </addon>
